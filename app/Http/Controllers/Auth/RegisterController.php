@@ -19,7 +19,7 @@ class RegisterController extends Controller
         $this->qrCodeService = $qrCodeService;
     }
 
-    public function showRegistrationForm(){
+    public function showRegistrationForm(){ 
         return view('auth.register');
     }
 
